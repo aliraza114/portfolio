@@ -160,19 +160,19 @@ const bigProjects = {
 };
 
 const projects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Mini Projects",
+  subtitle: "Small Projects for Learning",
   projects: [
     {
       image: require("./assets/images/covd.png"),
       link: "http://aliraza-covid-19.surge.sh/"
     },
     {
-      image: require("./assets/images/covd.png"),
+      image: require("./assets/images/burger.png"),
       link: "http://aliraza-burgerapp.surge.sh/"
     },
     {
-      image: require("./assets/images/covd.png"),
+      image: require("./assets/images/expanse.jpg"),
       link: "http://aliraza-personalexpanse.surge.sh/"
     },
   ]
@@ -188,4 +188,4 @@ const contactInfo = {
 };
 
 
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, contactInfo };
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, projects ,contactInfo };

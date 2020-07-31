@@ -31,8 +31,6 @@
 .saaya-health-div,
 .nextu-div {
   cursor: pointer;
-  height: 250px;
-  width: 250px;
 }
 
 @media (max-width: 768px) {
