@@ -19,7 +19,8 @@ const socialMediaLinks = {
   github: "https://github.com/aliraza114",
   linkedin: "https://www.linkedin.com/in/ali-raza-001b05131/",
   gmail: "aliraza35690@gmail.com",
-  facebook: "https://www.facebook.com/Alirazaakra/"
+  facebook: "https://www.facebook.com/Alirazaakra/",
+  instagram: "https://www.instagram.com/janigaga",
   
   // Instagram and Twitter are also supported in the links!
 };

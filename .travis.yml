@@ -16,6 +16,9 @@ deploy:
   skip_cleanup: true
   domain: http://aliraza-portfolio.surge.sh/
   project: ./build/
+  
+env:
+CI: false
 
 on: 
   branch: master
