@@ -19,7 +19,7 @@ export default function StartupProject() {
           <div className="startup-project-text">
             {projects.projects.map(project => {
               return (
-                <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
+                <div className="prjects"  onClick={() => openProjectInNewWindow(project.link)}>
                   <img alt="Ali Working" src={project.image}></img>
                 </div>
               );

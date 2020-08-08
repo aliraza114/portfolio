@@ -28,11 +28,11 @@
 .project-card-description {
   color: rgb(88, 96, 105);
 }
-.saaya-health-div,
+.projects,
 .nextu-div {
   cursor: pointer;
-  height: 250px;
-  width: 250px;
+  height: 180px;
+  width: 180px;
 }
 
 @media (max-width: 768px) {

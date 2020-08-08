@@ -10,7 +10,7 @@ export default function StartupProject() {
   }
 
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={3000} distance="20px">
     <div className="main" id="projects">
       <div>
         <h1 className="skills-heading">{bigProjects.title}</h1>
@@ -19,7 +19,7 @@ export default function StartupProject() {
           <div className="startup-project-text">
             {bigProjects.projects.map(project => {
               return (
-                <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
+                <div className="projects" onClick={() => openProjectInNewWindow(project.link)}>
                   <img alt="Ali Working" src={project.image}></img>
                 </div>
               );
