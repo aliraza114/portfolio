@@ -9,16 +9,13 @@ cache:
 script:
   - npm install
   - npm test
-  - npm run build 
+  - CI=false npm run build 
 
 deploy:
   provider: surge
   skip_cleanup: true
   domain: http://aliraza-portfolio.surge.sh/
   project: ./build/
-  
-env:
-CI: false
 
 on: 
   branch: master
