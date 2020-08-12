@@ -20,7 +20,8 @@ export default function StartupProject() {
             {projects.projects.map(project => {
               return (
                 <div className="prjects"  onClick={() => openProjectInNewWindow(project.link)}>
-                  <img alt="Ali Working" src={project.image}></img>
+                  {/* <img alt="Ali Working" src={project.image}></img> */}
+              <button>{project.name}</button>
                 </div>
               );
             })}

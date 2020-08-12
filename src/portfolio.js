@@ -165,15 +165,16 @@ const projects = {
   subtitle: "Small Projects for Learning",
   projects: [
     {
-      image: require("./assets/images/covd.png"),
+      // image: require("./assets/images/covd.png"),
+      name: 'Project 1',
       link: "http://aliraza-covid-19.surge.sh/"
     },
     {
-      image: require("./assets/images/burger.png"),
-      link: "http://aliraza-burgerapp.surge.sh/"
+      name: 'Project 2',
+      link: "http://aliraza-type-quiz.surge.sh/"
     },
     {
-      image: require("./assets/images/expanse.jpg"),
+      name: 'Project 3',
       link: "http://aliraza-personalexpanse.surge.sh/"
     },
   ]
