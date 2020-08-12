@@ -48,8 +48,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "bootstrap",
