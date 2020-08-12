@@ -23,7 +23,7 @@ export default function ExperienceCard({ cardInfo }) {
           <h5 className="experience-text-company">{cardInfo.company}</h5>
         </div>
         
-        <img crossOrigin={"anonymous"} ref={imgRef} className="experience-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/>
+        {/* <img crossOrigin={"anonymous"} ref={imgRef} className="experience-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/> */}
       </div>
       <div className="experience-text-details">
         <h5 className="experience-text-role">{cardInfo.role}</h5>

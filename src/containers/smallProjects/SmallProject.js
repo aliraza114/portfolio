@@ -2,6 +2,7 @@ import React from "react";
 import "./SmallProjects.css";
 import { projects } from "../../portfolio";
 import { Fade } from "react-reveal";
+import Button from '../../components/button/Button'
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
@@ -21,7 +22,7 @@ export default function StartupProject() {
               return (
                 <div className="prjects"  onClick={() => openProjectInNewWindow(project.link)}>
                   {/* <img alt="Ali Working" src={project.image}></img> */}
-              <button>{project.name}</button>
+              <Button text={project.name} />
                 </div>
               );
             })}
