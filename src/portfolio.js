@@ -32,7 +32,7 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Develop API using laravel"),
+    emoji("⚡ Develop API using Laravel"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -82,6 +82,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'dart',
       fontAwesomeClassname: "fas fa-dart"
+    },
+    {
+      skillName: 'laravel',
+      fontAwesomeClassname: "fas fa-laravel"
     }
   ]
 };
