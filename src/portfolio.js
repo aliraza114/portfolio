@@ -17,7 +17,7 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/aliraza114",
-  linkedin: "https://www.linkedin.com/in/ali-raza-001b05131/",
+  linkedin: "https://www.linkedin.com/in/janigaga/",
   gmail: "aliraza35690@gmail.com",
   facebook: "https://www.facebook.com/Alirazaakra/",
   instagram: "https://www.instagram.com/janigaga",
@@ -31,7 +31,7 @@ const skillsSection = {
   title: "What i do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your Web and Mobile Applications"),
     emoji("⚡ Develop API using Laravel"),
   ],
 
