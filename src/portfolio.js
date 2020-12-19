@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Ali Raza",
   title: "Hi all, I'm Ali",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Vuejs / Laravel and Mobile Applications with Android and Flutter"),
+  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web Applications with JavaScript, Vuejs, Reactjs, Node and Laravel"),
 };
 
 // Your Social Media Link
@@ -31,8 +31,10 @@ const skillsSection = {
   title: "What i do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your Web and Mobile Applications"),
-    emoji("⚡ Develop API using Laravel"),
+    emoji("⚡ Develop highly interactive Front end / User Interfaces for your Web Applications"),
+    emoji("⚡ Develop API using Laravel and Node"),
+    emoji("⚡ Developing and integrating GraphQl APIs"),
+    emoji("⚡ Interested in CICD, github actions and JAM stack Serverless Development"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -118,9 +120,16 @@ const workExperiences = {
   experience: [
     {
       role: "Full-Stack Developer",   
+      company: "Dextercodes",
+      companylogo: require("./assets/images/dexter.jpg"),
+      date: "Nov 2020 – Present",
+      desc: "Full Stack Developer using Vuejs, Reactjs for Front-End and Laravel for Back-End Development"
+    },
+    {
+      role: "Full-Stack Developer",   
       company: "Devco",
       companylogo: require("./assets/images/devco.png"),
-      date: "May 2019 – Present",
+      date: "May 2019 – Aug 2020",
       desc: "Full Stack Developer using Vuejs for Front-End and Laravel for Back-End Development"
     },
     {
