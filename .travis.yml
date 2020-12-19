@@ -9,6 +9,7 @@ cache:
 script:
   - npm install
   - npm test
+  - npm build
   - CI=false npm run build 
 
 deploy:
@@ -18,4 +19,4 @@ deploy:
   project: ./build/
 
 on: 
-  branch: master
+  branch: main
